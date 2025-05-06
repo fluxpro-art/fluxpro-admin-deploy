@@ -1,0 +1,7 @@
+Iniciando verificação do projeto FluxPro... 
+[+] index.html movido para frontend/public 
+[+] .env movido para backend 
+[+] package.json movido para frontend 
+Verificando estrutura... 
+[ERRO] index.html não encontrado em frontend 
+[ERRO] .env não encontrado em frontend 

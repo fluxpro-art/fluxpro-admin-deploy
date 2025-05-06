@@ -1,0 +1,90 @@
+------------------------------ 
+Início do Deploy: 06/05/2025 17:19:43,98 
+------------------------------ 
+Início do Deploy: 06/05/2025 17:19:45,66 
+Instalando dependências... 
+
+up to date, audited 57 packages in 900ms
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Limpando build anterior... 
+O sistema n�o pode encontrar o arquivo especificado.
+Gerando nova build... 
+npm error Missing script: "build"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: C:\Users\silve\AppData\Roaming\npm-cache\_logs\2025-05-06T20_19_47_191Z-debug-0.log
+Realizando deploy via Vercel... 
+Vercel CLI 41.7.0
+? Set up and deploy “~\OneDrive\Área de Trabalho\Nova pasta”? (Y/n)[69G[2K[G? Set up and deploy “~\OneDrive\Área de Trabalho\Nova pasta”? (Y/n) h[70G[2K[G? Set up and deploy “~\OneDrive\Área de Trabalho\Nova pasta”? (Y/n) hm[71G[2K[G? Set up and deploy “~\OneDrive\Área de Trabalho\Nova pasta”? (Y/n) hmb[72G[2K[G? Set up and deploy “~\OneDrive\Área de Trabalho\Nova pasta”? (Y/n) hmbm[73G[2K[G? Set up and deploy “~\OneDrive\Área de Trabalho\Nova pasta”? yes[66G
+[?25hLoading scopes…
+? Which scope should contain your project? (Use arrow keys)
+> daniel's projects[?25l[20G[2K[1A[2K[G? Which scope should contain your project? daniel's projects[61G
+[?25hSearching for existing projects…
+? Link to existing project? (y/N)[35G
+[?25h------------------------------ 
+Início do Deploy: 06/05/2025 17:23:15,08 
+------------------------------ 
+Início do Deploy: 06/05/2025 17:23:16,78 
+Instalando dependências... 
+
+up to date, audited 57 packages in 851ms
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Limpando build anterior... 
+O sistema n�o pode encontrar o arquivo especificado.
+Gerando nova build... 
+npm error Missing script: "build"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: C:\Users\silve\AppData\Roaming\npm-cache\_logs\2025-05-06T20_23_18_248Z-debug-0.log
+Realizando deploy via Vercel... 
+Vercel CLI 41.7.0
+? Set up and deploy “~\OneDrive\Área de Trabalho\Nova
+pasta\fluxpro-admin-deploy”? (Y/n)[1A[90G[1B[2K[1A[2K[G? Set up and deploy “~\OneDrive\Área de Trabalho\Nova
+pasta\fluxpro-admin-deploy”? (Y/n) n[1A[91G[1B[2K[1A[2K[G? Set up and deploy “~\OneDrive\Área de Trabalho\Nova
+pasta\fluxpro-admin-deploy”? (Y/n) np[1A[92G[1B[2K[1A[2K[G? Set up and deploy “~\OneDrive\Área de Trabalho\Nova
+pasta\fluxpro-admin-deploy”? (Y/n) npm[1A[93G[1B
+[?25h------------------------------ 
+Início do Deploy: 06/05/2025 17:24:46,93 
+------------------------------ 
+Início do Deploy: 06/05/2025 17:24:48,53 
+Instalando dependências... 
+
+up to date, audited 39 packages in 976ms
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Limpando build anterior... 
+Gerando nova build... 
+
+> fluxpro-panel@1.0.0 build
+> vite build
+
+[36mvite v4.5.14 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 24 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                [39m[1m[2m  0.33 kB[22m[1m[22m[2m │ gzip:  0.24 kB[22m
+[2mdist/[22m[36massets/index-577ae0df.js  [39m[1m[2m141.79 kB[22m[1m[22m[2m │ gzip: 45.66 kB[22m
+[32m✓ built in 831ms[39m
+Realizando deploy via Vercel... 
+Vercel CLI 41.7.0
+Retrieving project…
+^C
