@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "fluxpro-admin-v2",
+    "firebase deploy": "fir-demo-project",
+    "prod": "fluxpro-admin-v2"
+  },
+  "targets": {},
+  "etags": {}
+}
