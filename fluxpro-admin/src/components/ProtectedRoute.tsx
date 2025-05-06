@@ -1,1 +1,0 @@
-// src/components/ProtectedRoute.tsx - exemplo

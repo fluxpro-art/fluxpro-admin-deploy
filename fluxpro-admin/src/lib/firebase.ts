@@ -1,1 +1,0 @@
-// src/lib/firebase.ts - exemplo
