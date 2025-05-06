@@ -1,27 +1,3 @@
-@echo off
-echo == Iniciando Deploy do FluxPro ==
-
-:: Caminho base do projeto
-cd /d "%~dp0"
-
-:: Verificar se temp-node existe antes de tentar algo
-IF EXIST temp-node (
-    echo Removendo arquivos grandes do versionamento...
-    git rm --cached -r temp-node
-)
-
-:: Atualizando .gitignore
-echo Atualizando .gitignore...
-echo temp-node/>> .gitignore
-echo *.msi>> .gitignore
-
-:: Commit e push
-echo Realizando commit...
-git add .
-git commit -m "Limpeza de arquivos grandes e atualizacao do .gitignore"
-
-echo Enviando para o GitHub...
-git push origin main
-
-echo Deploy finalizado com sucesso!
-pause
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ca65ca224f9d163f6da2f2227ba167276a727e4d5fe350c24f0022373f964cc
+size 591

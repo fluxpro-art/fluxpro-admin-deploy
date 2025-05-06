@@ -1,22 +1,3 @@
-@echo off
-title Iniciando FluxPro Admin...
-echo ========================================
-echo  INICIANDO PROJETO FLUXPRO - ADMIN PANEL
-echo ========================================
-cd /d C:\Users\silve\Downloads\fluxpro-admin\fluxpro-panel\fluxpro-admin
-
-echo Instalando dependências...
-call npm install
-
-echo Verificando se tailwindcss está presente...
-call npm list tailwindcss >nul 2>&1
-if %errorlevel% neq 0 (
-    echo Instalando TailwindCSS...
-    call npm install -D tailwindcss
-    call npx tailwindcss init -p
-)
-
-echo Iniciando o servidor local...
-call npm run dev
-
-pause
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d1b48b1f5576f347e7f0a5c109b21c71fcb33bc6a94a9a4a9d106212a390a76
+size 602

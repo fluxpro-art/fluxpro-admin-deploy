@@ -1,26 +1,3 @@
-@echo off
-echo == Iniciando Deploy do FluxPro com suporte a Git LFS ==
-IF NOT EXIST ".git" (
-    echo Repositorio Git nao encontrado. Abortando.
-    pause
-    exit /b
-)
-echo Instalando Git LFS...
-git lfs install
-
-echo Adicionando arquivos grandes ao Git LFS...
-git lfs track "*.exe"
-git lfs track "*.msi"
-
-echo Atualizando .gitattributes...
-git add .gitattributes
-
-echo Adicionando arquivos ao commit...
-git add .
-git commit -m "Deploy com Git LFS habilitado"
-
-echo Enviando para o GitHub...
-git push origin main
-
-echo Deploy com LFS finalizado.
-pause
+version https://git-lfs.github.com/spec/v1
+oid sha256:0850d85199fa4144d4338067e00c31a7f4d8a7d4ef05585cc7dd89f460327b2f
+size 552

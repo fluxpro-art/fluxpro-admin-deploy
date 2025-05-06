@@ -1,9 +1,3 @@
-@echo off
-cd /d "%~dp0"
-echo Realizando push do backend...
-git add .
-git commit -m "Atualização backend automática"
-git push origin main
-echo Push enviado. Atualizando API no Railway...
-railway up
-pause
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c40cad262e61141530773e8a1bb29bc7ca8d8f50c15b8827034e23aafb3e53d
+size 205
